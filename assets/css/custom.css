@@ -1,0 +1,249 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+#select1 {
+    display: none;
+}
+
+#select2 {
+    display: none;
+}
+
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 40px;
+}
+
+.primaryColor{
+
+    background-color: #929e36!important;
+}
+
+.numbers {
+    font-size: 30px;
+}
+
+.sidebar-color {
+    background-color: #255468;
+    color: #e0f3ff!important;
+}
+
+.colorText {
+    color: #255468;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.card-row {
+    display: inline-flex;
+    padding: 1em;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: grey;
+    text-align: right;
+}
+
+.fa-stack {
+    position: relative;
+    /* Adjust these values accordingly */
+    bottom: 4px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sub-menu {
+
+    color: white;
+}
+
+.app-header__logo {
+
+    background: #153f56;
+
+}
+
+.profile {
+
+    padding: 15px 10px 10px 10px;
+    background: #153f56;
+    height: 120px;
+}
+
+.username {
+
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.useremail {
+
+    font-weight: lighter;
+    color: #efedee;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.client-logo {
+
+    background: #153f56;
+    position: relative;
+    margin-top: -40px;
+}
+
+.client-logo-img {
+
+    background: #ffffff;
+    border: solid 5px #255468;
+    border-radius: 40px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.client-logo:hover .edit {
+
+    display: block;
+}
+
+.edit {
+    padding-right: 7px;
+    position: absolute;
+    left: 30%;
+    top: 0px;
+    display: none;
+    width: 80px;
+    height: 80px;
+    background-color: #bdbdbde3;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+
+.edit a {
+    color: #255468;
+}
+
+.app-sidebar .app-sidebar__inner {
+
+    margin-top: 90px;
+}
+
+.vertical-nav-menu li a {
+
+    padding: 0 !important;
+}
+
+.inputfile {
+
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #153f56;
+    display: inline-block;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label, .inputfile + label:hover {
+
+    /*background-color: #255468;*/
+}
+
+a.btn_p,
+.btn_p {
+    border: none;
+    color: #fff;
+    background: #153f56;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-size: 0.875rem;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+a.btn_p.status_22,
+.btn_p.status_22 {
+    padding:5px 5px;
+    font-size: 7px;
+    font-size: 0.8rem;
+    background: #0058a2;
+    color: #ffffff;
+}
+a.btn_p.status_00,
+.btn_p.status_00 {
+    padding:5px 5px;
+    font-size: 7px;
+    font-size: 0.8rem;
+    background: #33007f;
+    color: #ffffff;
+}
+a.btn_p.status_33,
+.btn_p.status_33 {
+    padding:5px 5px;
+    font-size: 7px;
+    font-size: 0.8rem;
+    background: #00967b;
+    color: #ffffff;
+}
+a.btn_p.status_11,
+.btn_p.status_11 {
+    padding:5px 5px;
+    font-size: 7px;
+    font-size: 0.8rem;
+    background: #fd8f01;
+    color: #ffffff;
+}
+a.btn_p.status_44,
+.btn_p.status_44 {
+    padding:5px 5px;
+    font-size: 7px;
+    font-size: 0.8rem;
+    background: #960040;
+    color: #ffffff;
+}
+
+.vertical-nav-menu li a:hover{background:#d8e95d!important;text-decoration:none}
+.app-sidebar.sidebar-text-light .vertical-nav-menu li a:hover{background:#d8e95d;color:black}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu li a:hover{background:#d8e95d;color:rgba(0,0,0,0.7)}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu li a.mm-active{color:rgba(0,0,0,0.7);background:#d8e95d!important;}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu ul:before{background:#d8e95d!important;}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu ul>li>a{color:rgba(0,0,0,0.4)}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu ul>li>a:hover{color:rgba(0,0,0,0.7)}
+.app-sidebar.sidebar-text-dark .vertical-nav-menu ul>li>a.mm-active{color:rgba(0,0,0,0.7);background:#d8e95d!important;}
+
+
+
+
+

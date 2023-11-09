@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:client_id;datatype:int,name:client_first_name;datatype:string,name:client_last_name;datatype:string,name:client_email_address;datatype:string,name:client_mobile_number;datatype:string,name:client_password;datatype:string,name:status;datatype:string,name:added_date;datatype:string,name:client_country;datatype:string,name:client_parent_company;datatype:string,name:client_login_username;datatype:string,name:client_industry;datatype:string,name:added_by;datatype:string,name:verified_date;datatype:string,name:verified_by;datatype:string,name:client_credits;datatype:string,name:client_pin;datatype:string,name:client_url;datatype:string,name:client_company_id;datatype:string,name:client_postal_address;datatype:string,name:client_city;datatype:string,name:client_postal_code;datatype:string" />
+</info>

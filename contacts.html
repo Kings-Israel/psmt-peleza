@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Peleza Screening and Monitoring Tool Kit">
+	<meta name="author" content="Peleza">
+	<title>PSMT-Peleza Screening Management Toolkit</title>
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css?=<?= rand(0,999999) ?>" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+    
+	<!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css?=<?= rand(0,999999) ?>" rel="stylesheet">
+	<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="preloader" class="Fixed">
+		<div data-loader="circle-side"></div>
+	</div>
+	<!-- /Preload-->
+	
+	<div id="page">		
+	<header class="header_sticky">	
+		<a href="#menu" class="btn_mobile">
+			<div class="hamburger hamburger--spin" id="hamburger">
+				<div class="hamburger-box">
+					<div class="hamburger-inner"></div>
+				</div>
+			</div>
+		</a>
+		<!-- /btn_mobile-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<div id="logo">
+						<a href="dashboard/index.php" title="PSMT"><img src="img/Peleza_Logo_We_Get_It.png" data-retina="true" alt="" width="163" height="36"></a>
+					</div>
+				</div>
+				<div class="col-lg-9 col-6">
+					<ul id="top_access">
+						<li><a href="index.php" class="btn_1 small"><i class="icon-mobile" style="font-size:15px"></i><span id="mybuttontext">Login</span></a></li>
+					</ul>
+					<nav id="menu" class="main-menu">
+						
+					</nav>
+					<!-- /main-menu -->
+				</div>
+			</div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /header -->
+	
+	<main>
+	<!--	<div id="map_contact"></div>-->
+		<!-- /map -->
+		
+		<div class="container margin_60_35">
+			<div class="row">
+				<aside class="col-lg-3 col-md-4">
+					<div id="contact_info">
+						<h3>Contacts info</h3>
+						<p>
+							Westalnds, Kenya<br> + 00000000000<br>
+							<a href="#">info@peleza.com</a>
+						</p>
+						<!--<h4>Get directions</h4>
+						<form action="https://maps.google.com/maps" method="get" target="_blank">
+							<div class="form-group">
+								<input type="text" name="saddr" placeholder="Enter your location" class="form-control styled">
+								<input type="hidden" name="daddr" value="Nairobi, KENYA 00000">
+								<!-- Write here your end point
+							</div>
+							<input type="submit" value="Get directions" class="btn_1 add_bottom_45">
+						</form>-->
+						<ul>
+							<li><strong>Administration</strong>
+								<a href="tel://00000000000">00000000000</a><br><a href="tel://00000000000">admin@peleza.com</a><br>
+								<small>Monday to Friday 8am - 5pm</small>
+							</li>
+							<li><strong>General questions</strong>
+								<a href="tel://00000">00000000000</a><br><a href="tel://00000000000">customercare@peleza.com</a><br>
+								<p><small>Monday to Friday 8am - 5pm</small></p>
+							</li>
+						</ul>
+					</div>
+				</aside>
+				<!--/aside -->
+				<div class=" col-lg-8 col-md-8 ml-auto">
+					<div class="box_general">
+						<h3>Contact us</h3>
+						<p>
+							Want to have coffee with us and discus more opportunities in PSMT?
+						</p>
+						<div>
+							<div id="message-contact"></div>
+							<form method="post" action="" id="contactform">
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<div class="form-group"><span id="sprytextfield1">
+										  <input type="text" class="form-control" id="name_contact" name="name_contact" placeholder="Name" required>
+									    <span class="textfieldRequiredMsg">*</span></span></div>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="lastname_contact" name="lastname_contact" placeholder="Last name" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<div class="form-group">
+											<input type="email" id="email_contact" name="email_contact" class="form-control" placeholder="Email" required>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="form-group">
+											<input type="text" id="phone_contact" name="phone_contact" class="form-control" placeholder="Phone number" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea rows="5" id="message_contact" name="message_contact" class="form-control" style="height:100px;" placeholder="Hello world!" required></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" id="verify_contact" class=" form-control" placeholder=" 3 + 1 =" required>
+										</div>
+									</div>
+								</div>
+								<input type="submit" value="Submit" class="btn_1 add_top_20" id="submit-contact">
+							</form>
+						</div>
+						<!-- /col -->
+					</div>
+				</div>
+				<!-- /col -->
+			</div>
+			<!-- End row -->
+		</div>
+		<!-- /container -->
+	</main>
+	<!-- /main -->
+	
+	<footer>
+		<div class="container margin_60_35">
+			
+			<!--/row-->
+			<hr>
+			<div class="row">
+				<div class="col-md-8">
+					<ul id="additional_links">
+						<li><a href="#0">Terms and conditions</a></li>
+					  <li><a href="#0">Privacy</a></li>
+				  </ul>
+				</div>
+				<div class="col-md-4">
+					<div id="copy">© 2018 PSMT</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/footer-->
+	</div>
+	<!-- page -->
+
+	<div id="toTop"></div>
+	<!-- Back to top button -->
+
+	<!-- COMMON SCRIPTS -->
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/common_scripts.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="assets/validate.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/mapmarker.jquery.js"></script>
+	<script src="js/mapmarker_contacts_func.js"></script>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+    </script>
+</body>
+</html>

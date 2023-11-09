@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getcart" value="name:COUNT_REQUEST;datatype:int,name:request_plan;datatype:string,name:PACKAGE_COST;datatype:real,name:package_cost_currency;datatype:string" />
+</info>

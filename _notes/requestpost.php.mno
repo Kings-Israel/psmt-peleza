@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getpackagename2" value="name:package_id;datatype:int,name:dataset_name;datatype:string,name:dataset_type;datatype:string" />
+</info>

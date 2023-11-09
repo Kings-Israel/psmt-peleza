@@ -1,0 +1,221 @@
+/*body {*/
+    /*background: rgb(204,204,204);*/
+/*}*/
+
+@font-face {
+    font-family: 'MyCambria';
+    src: url('/assets/fonts/CambriaRegular.ttf')  format('truetype');
+}
+
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    /*box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);*/
+    font-family: Cambria,MyCambria, Georgia, serif !important;
+    font-size: 1em;
+    padding: 30px 0px;
+    color: black;
+    position: relative;
+}
+.page.a4 {
+
+    /*width: 21cm;*/
+    /*height: 29.7cm;*/
+    size: A4;
+    page-break-after: always;
+}
+
+/*.page[size="A4"][layout="landscape"] {*/
+
+    /*width: 29.7cm;*/
+    /*height: 21cm;*/
+    /*page-break-after: always;*/
+
+/*}*/
+
+
+.peleza{
+
+    padding: 3mm 10mm 3mm 10mm;
+}
+@media print {
+
+    body, .page {
+        margin: 0;
+        box-shadow: 0;
+    }
+    .row {
+        position: relative;
+    }
+}
+
+/* Colors */
+.dark-text{
+
+    color: #0a4157;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.dark{
+
+    background-color: #0a4157!important;
+    color: white
+}
+
+.dark-header {
+
+    background-color: #0a4157!important;
+    color: white
+}
+.primary{
+    background-color: #9db3bc!important;
+}
+.light{
+    background-color: #ced9dd;
+}
+
+.secondary{
+    background-color: #e7edb6;
+}
+.secondaryLight{
+    background-color: #f8caac;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.darkred{
+    background-color: #b80000;
+}
+
+.color-1{
+    background-color: #d9d9d9;
+}
+
+.color-2{
+    background-color: #f2f2f2;
+}
+
+.color-2{
+    background-color: #f2f2f2;
+}
+
+.center {
+
+    text-align: center;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*justify-content: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.justify {
+
+    width: 100%;
+}
+
+.box {
+
+    height: auto;
+    padding: 5px 10px 0px 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: initial;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-full {
+    width: 750px;
+    height: 24cm;
+    padding: 5px 10px 0px 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.disclaimer{
+    font-size: xx-small!important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.p-finger{
+    width: 120px;
+    height: 200px;
+}
+.table{
+    text-align: center!important;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+div.fixed {
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+    border: 3px solid #8AC007;
+}
+
+.main{
+
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.main1{
+
+    background-color: #e7edb6;
+    width: 40%;
+    padding-left: 10px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main2{
+
+    height: 30px;
+    background-color: #9db3bc;
+    width: 60%;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table > tbody > tr > td {
+
+    vertical-align: middle!important;
+}
+
+.peleza-striped tr:nth-child(even) {
+
+    background-color: #d0dbf0!important;
+
+}
+
+.report-footer {
+
+    position: absolute;
+    bottom: 0;
+    padding: 3mm 10mm 3mm 10mm;
+}
+

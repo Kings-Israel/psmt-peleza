@@ -1,0 +1,19 @@
+{
+    "name": "phil/imovie_api_v1",
+    "authors": [
+        {
+            "name": "mudphilo",
+            "email": "philipmudenyo@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "~1.18",
+        "swiftmailer/swiftmailer": "^5.4",
+        "sociallydev/spaces-api": "dev-master",
+        "monolog/monolog": "^1.22",
+        "phpoffice/phpword": "^0.17.0",
+        "html2text/html2text": "^4.3",
+        "krustnic/docx-merge": "^1.0",
+        "jurosh/pdf-merge": "^2.0"
+    }
+}

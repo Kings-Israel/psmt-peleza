@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getpackagecost" value="name:package_id;datatype:int,name:package_name;datatype:string,name:package_cost;datatype:string,name:package_status;datatype:string,name:package_added_by;datatype:string,name:package_added_date;datatype:string,name:package_data;datatype:string,name:package_verified_by;datatype:string,name:package_verified_date;datatype:string,name:dataset_id;datatype:string,name:package_currency;datatype:string,name:package_min;datatype:string,name:package_max;datatype:string,name:package_credits;datatype:string" />
+	<infoitem key="UD_getcitizenship" value="name:country_id;datatype:int,name:country_name;datatype:string,name:status;datatype:string,name:country_code;datatype:string,name:country_nationality;datatype:string" />
+	<infoitem key="UD_getpackagemodules" value="name:module_name;datatype:string" />
+</info>
